@@ -1,0 +1,288 @@
+@startgantt Convexus AMM implementation progress
+
+Project starts the 20th of december 2021
+
+<style>
+ganttDiagram {
+	FontColor White
+	BackGroundColor #192a4e
+	LineColor #091a3e
+
+	task {
+		Padding 5
+		BackGroundColor #0589a0
+		LineColor #394a5e
+		ArrowColor #644aca
+	}
+
+	arrow {
+		LineColor #0589a0
+		LineStyle 8.0; 13.0
+		LineThickness 3.0
+	}
+
+	separator {
+		BackgroundColor #644aca
+		LineStyle 8.0; 3.0
+		LineColor #644aca
+		LineThickness 1.0
+		FontSize 16
+		FontStyle bold
+		Margin 10
+		Padding 10
+	}
+
+	milestone {
+		FontSize 25
+		BackGroundColor #6ec9ee
+		LineColor #9474f0
+	}
+}
+</style>
+
+-- Core Layer --
+
+[Start] happens on 2021-12-27
+[M1] happens on 2022-01-26 and displays on same row as [Start]
+[M2] happens on 2022-02-25 and displays on same row as [Start]
+[M3] happens on 2022-03-27 and displays on same row as [Start]
+[M4] happens on 2022-04-26 and displays on same row as [Start]
+
+' --- Pool --- 
+[ConvexusPool implementation] lasts 10 days
+[ConvexusPool implementation] is 100% completed
+[ConvexusPool implementation] starts at 2021-12-27
+
+[ConvexusPool unit testing] lasts 15 days
+[ConvexusPool unit testing] starts at [ConvexusPool implementation]'s end
+[ConvexusPool unit testing] is 100% completed
+
+[ConvexusPool integration testing] lasts 5 days
+[ConvexusPool integration testing] starts at [ConvexusPool unit testing]'s end
+[ConvexusPool integration testing] starts at 2022-01-26
+[ConvexusPool integration testing] is 10% completed
+
+[ConvexusPool user documentation] lasts 10 days
+[ConvexusPool user documentation] starts at [ConvexusPool unit testing]'s end
+[ConvexusPool user documentation] is 33% completed
+
+' --- Factory ---
+[ConvexusFactory implementation] lasts 5 days
+[ConvexusFactory implementation] is 100% completed
+[ConvexusFactory implementation] starts at 2021-12-27
+
+[ConvexusFactory unit testing] lasts 5 days
+[ConvexusFactory unit testing] starts at [ConvexusFactory implementation]'s end
+[ConvexusFactory unit testing] is 100% completed
+
+[ConvexusFactory integration testing] lasts 2 days
+[ConvexusFactory integration testing] starts at [ConvexusFactory unit testing]'s end
+[ConvexusFactory integration testing] starts at 2022-01-26
+[ConvexusFactory integration testing] is 50% completed
+
+[ConvexusFactory user documentation] lasts 3 days
+[ConvexusFactory user documentation] starts at [ConvexusFactory unit testing]'s end
+[ConvexusFactory user documentation] starts at 2022-01-30
+[ConvexusFactory user documentation] is 0% completed
+
+
+-- Periphery Layer --
+
+' --- SwapRouter --- 
+[SwapRouter implementation] lasts 10 days
+[SwapRouter implementation] is 100% completed
+[SwapRouter implementation] starts at 2021-12-27
+
+[SwapRouter unit testing] lasts 5 days
+[SwapRouter unit testing] starts at [SwapRouter implementation]'s end
+[SwapRouter unit testing] is 100% completed
+
+[SwapRouter integration testing] lasts 3 days
+[SwapRouter integration testing] starts at [SwapRouter unit testing]'s end
+[SwapRouter integration testing] starts at 2022-01-31
+[SwapRouter integration testing] is 0% completed
+
+[SwapRouter user documentation] lasts 3 days
+[SwapRouter user documentation] starts at [SwapRouter unit testing]'s end
+[SwapRouter user documentation] is 100% completed
+
+
+' --- NonFungiblePositionManager --- 
+[NonFungiblePositionManager implementation] lasts 15 days
+[NonFungiblePositionManager implementation] is 100% completed
+[NonFungiblePositionManager implementation] starts at 2021-12-27
+
+[NonFungiblePositionManager unit testing] lasts 10 days
+[NonFungiblePositionManager unit testing] starts at [NonFungiblePositionManager implementation]'s end
+[NonFungiblePositionManager unit testing] is 100% completed
+
+[NonFungiblePositionManager user documentation] lasts 3 days
+[NonFungiblePositionManager user documentation] starts after [NonFungiblePositionManager unit testing]'s end
+[NonFungiblePositionManager user documentation] starts at 2022-01-31
+[NonFungiblePositionManager user documentation] is 0% completed
+
+[NonFungiblePositionManager integration testing] lasts 5 days
+[NonFungiblePositionManager integration testing] starts after [NonFungiblePositionManager unit testing]'s end
+[NonFungiblePositionManager integration testing] starts at 2022-02-05
+[NonFungiblePositionManager integration testing] is 0% completed
+
+
+' --- NonfungibleTokenPositionDescriptor --- 
+[NonfungibleTokenPositionDescriptor implementation] lasts 1 days
+[NonfungibleTokenPositionDescriptor implementation] is 100% completed
+[NonfungibleTokenPositionDescriptor implementation] starts at 2021-12-27
+
+
+' --- PoolInitializer --- 
+[PoolInitializer implementation] lasts 2 days
+[PoolInitializer implementation] is 100% completed
+[PoolInitializer implementation] starts at 2021-12-27
+
+[PoolInitializer integration testing] lasts 1 days
+[PoolInitializer integration testing] starts at [PoolInitializer implementation]'s end
+[PoolInitializer integration testing] starts at 2022-01-31
+[PoolInitializer integration testing] is 0% completed
+
+' --- Quoter --- 
+[Quoter implementation] lasts 3 days
+[Quoter implementation] is 100% completed
+[Quoter implementation] starts at 2021-12-27
+
+[Quoter user documentation] lasts 1 days
+[Quoter user documentation] starts at [Quoter implementation]'s end
+[Quoter user documentation] starts at 2022-01-31
+[Quoter user documentation] is 0% completed
+
+[Quoter integration testing] lasts 2 days
+[Quoter integration testing] starts at [Quoter implementation]'s end
+[Quoter integration testing] starts at 2022-02-01
+[Quoter integration testing] is 0% completed
+
+' --- CVXS --- 
+[CVXS implementation] lasts 5 days
+[CVXS implementation] is 100% completed
+[CVXS implementation] starts at 2021-12-27
+
+[CVXS unit testing] lasts 5 days
+[CVXS unit testing] starts at [CVXS implementation]'s end
+[CVXS unit testing] starts at 2022-02-10
+[CVXS unit testing] is 0% completed
+
+[CVXS integration testing] lasts 2 days
+[CVXS integration testing] starts at [CVXS unit testing]'s end
+[CVXS integration testing] is 0% completed
+
+[CVXS user documentation] lasts 3 days
+[CVXS user documentation] starts at [CVXS unit testing]'s end
+[CVXS user documentation] is 0% completed
+
+
+' --- PairFlash --- 
+[PairFlash implementation] lasts 5 days
+[PairFlash implementation] is 100% completed
+[PairFlash implementation] starts at 2021-12-27
+
+[PairFlash user documentation] lasts 2 days
+[PairFlash user documentation] starts at [PairFlash implementation]'s end
+[PairFlash user documentation] starts at 2022-01-28
+[PairFlash user documentation] is 0% completed
+
+
+' --- Staker --- 
+[Staker implementation] lasts 5 days
+[Staker implementation] is 100% completed
+[Staker implementation] starts at 2021-12-27
+
+[Staker unit testing] lasts 5 days
+[Staker unit testing] starts at [Staker implementation]'s end
+[Staker unit testing] is 100% completed
+
+[Staker user documentation] lasts 2 days
+[Staker user documentation] starts at [Staker unit testing]'s end
+[Staker user documentation] starts at 2022-02-16
+[Staker user documentation] is 0% completed
+
+[Staker integration testing] lasts 5 days
+[Staker integration testing] starts at [Staker unit testing]'s end
+[Staker integration testing] starts at 2022-02-18
+[Staker integration testing] is 0% completed
+
+
+' --- Swap --- 
+[GenericSwap implementation] lasts 2 days
+[GenericSwap implementation] is 100% completed
+[GenericSwap implementation] starts at 2021-12-27
+
+[GenericSwap unit testing] lasts 1 days
+[GenericSwap unit testing] starts at [GenericSwap implementation]'s end
+[GenericSwap unit testing] starts at 2022-01-26
+[GenericSwap unit testing] is 0% completed
+
+[GenericSwap user documentation] lasts 1 days
+[GenericSwap user documentation] starts at [GenericSwap unit testing]'s end
+[GenericSwap user documentation] is 50% completed
+
+[GenericSwap integration testing] lasts 1 days
+[GenericSwap integration testing] starts at [GenericSwap unit testing]'s end
+[GenericSwap integration testing] starts at 2022-01-30
+[GenericSwap integration testing] is 0% completed
+
+
+' --- TickLens --- 
+[TickLens implementation] lasts 3 days
+[TickLens implementation] is 100% completed
+[TickLens implementation] starts at 2021-12-27
+
+[TickLens unit testing] lasts 3 days
+[TickLens unit testing] starts at [TickLens implementation]'s end
+[TickLens unit testing] starts at 2022-02-20
+[TickLens unit testing] is 0% completed
+
+[TickLens user documentation] lasts 1 days
+[TickLens user documentation] starts at [TickLens unit testing]'s end
+[TickLens user documentation] is 0% completed
+
+
+' --- Governor --- 
+[Governor implementation] lasts 7 days
+[Governor implementation] is 30% completed
+[Governor implementation] starts at 2022-01-26
+
+[Governor unit testing] lasts 10 days
+[Governor unit testing] starts at [Governor implementation]'s end
+[Governor unit testing] is 0% completed
+
+[Governor user documentation] lasts 3 days
+[Governor user documentation] starts at [Governor unit testing]'s end
+[Governor user documentation] starts at 2022-02-25
+[Governor user documentation] is 0% completed
+
+[Governor integration testing] lasts 7 days
+[Governor integration testing] starts at [Governor unit testing]'s end
+[Governor integration testing] starts at 2022-02-25
+[Governor integration testing] is 0% completed
+
+
+-- Backend --
+
+' --- Smart Routing --- 
+[Smart Routing development] lasts 15 days
+[Smart Routing development] starts at 2022-02-25
+[Smart Routing development] is 0% completed
+
+[Smart Routing testing] lasts 15 days
+[Smart Routing testing] starts at [Smart Routing development]'s end
+[Smart Routing testing] is 0% completed
+
+' --- Statistics backend --- 
+[Statistics Backend] lasts 20 days
+[Statistics Backend] starts at 2022-03-27
+[Statistics Backend] is 0% completed
+
+[Statistics Backend Testing] lasts 10 days
+[Statistics Backend Testing] starts at [Statistics Backend]'s end
+[Statistics Backend Testing] is 0% completed
+
+
+
+@endgantt
