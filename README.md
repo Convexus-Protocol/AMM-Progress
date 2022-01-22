@@ -22,16 +22,19 @@ We managed to implement the entire Core Layer, and most of the Periphery Layer a
 -  Convexus Pool
     - ✅ SCORE implementation
     - ✅ unit testing
+    - ⚙️ user documentation
 
 - Convexus Factory
     - ✅ SCORE implementation
     - ✅ unit testing
+    - ⚙️ user documentation
 
 ### Periphery Layers
 
 - SwapRouter
     - ✅ SCORE implementation
     - ✅ unit testing
+    - ✅ user documentation
 
 - NonFungiblePositionManager
     - ✅ SCORE implementation
@@ -43,6 +46,7 @@ We managed to implement the entire Core Layer, and most of the Periphery Layer a
 - Quoter
     - ✅ SCORE implementation
     - ✅ unit testing
+    - ⚙️ user documentation
 
 - CXS
     - ✅ SCORE implementation
@@ -54,6 +58,8 @@ We managed to implement the entire Core Layer, and most of the Periphery Layer a
 - TickLens
     - ✅ SCORE implementation
 
+- Governor
+    - ⚙️ SCORE implementation
 
 ### Example contracts
 

@@ -47,6 +47,7 @@ ganttDiagram {
 [M2] happens on 2022-02-25 and displays on same row as [Start]
 [M3] happens on 2022-03-27 and displays on same row as [Start]
 [M4] happens on 2022-04-26 and displays on same row as [Start]
+[M5] happens on 2022-05-25 and displays on same row as [Start]
 
 ' --- Pool --- 
 [ConvexusPool implementation] lasts 10 days
