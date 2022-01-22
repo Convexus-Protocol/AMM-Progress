@@ -158,34 +158,23 @@ ganttDiagram {
 [Quoter integration testing] starts at 2022-02-01
 [Quoter integration testing] is 0% completed
 
-' --- CVXS --- 
-[CVXS implementation] lasts 5 days
-[CVXS implementation] is 100% completed
-[CVXS implementation] starts at 2021-12-27
+' --- CXS --- 
+[CXS implementation] lasts 5 days
+[CXS implementation] is 100% completed
+[CXS implementation] starts at 2021-12-27
 
-[CVXS unit testing] lasts 5 days
-[CVXS unit testing] starts at [CVXS implementation]'s end
-[CVXS unit testing] starts at 2022-02-10
-[CVXS unit testing] is 0% completed
+[CXS unit testing] lasts 5 days
+[CXS unit testing] starts at [CXS implementation]'s end
+[CXS unit testing] starts at 2022-02-10
+[CXS unit testing] is 0% completed
 
-[CVXS integration testing] lasts 2 days
-[CVXS integration testing] starts at [CVXS unit testing]'s end
-[CVXS integration testing] is 0% completed
+[CXS integration testing] lasts 2 days
+[CXS integration testing] starts at [CXS unit testing]'s end
+[CXS integration testing] is 0% completed
 
-[CVXS user documentation] lasts 3 days
-[CVXS user documentation] starts at [CVXS unit testing]'s end
-[CVXS user documentation] is 0% completed
-
-
-' --- PairFlash --- 
-[PairFlash implementation] lasts 5 days
-[PairFlash implementation] is 100% completed
-[PairFlash implementation] starts at 2021-12-27
-
-[PairFlash user documentation] lasts 2 days
-[PairFlash user documentation] starts at [PairFlash implementation]'s end
-[PairFlash user documentation] starts at 2022-01-28
-[PairFlash user documentation] is 0% completed
+[CXS user documentation] lasts 3 days
+[CXS user documentation] starts at [CXS unit testing]'s end
+[CXS user documentation] is 0% completed
 
 
 ' --- Staker --- 
@@ -206,27 +195,6 @@ ganttDiagram {
 [Staker integration testing] starts at [Staker unit testing]'s end
 [Staker integration testing] starts at 2022-02-18
 [Staker integration testing] is 0% completed
-
-
-' --- Swap --- 
-[GenericSwap implementation] lasts 2 days
-[GenericSwap implementation] is 100% completed
-[GenericSwap implementation] starts at 2021-12-27
-
-[GenericSwap unit testing] lasts 1 days
-[GenericSwap unit testing] starts at [GenericSwap implementation]'s end
-[GenericSwap unit testing] starts at 2022-01-26
-[GenericSwap unit testing] is 0% completed
-
-[GenericSwap user documentation] lasts 1 days
-[GenericSwap user documentation] starts at [GenericSwap unit testing]'s end
-[GenericSwap user documentation] is 50% completed
-
-[GenericSwap integration testing] lasts 1 days
-[GenericSwap integration testing] starts at [GenericSwap unit testing]'s end
-[GenericSwap integration testing] starts at 2022-01-30
-[GenericSwap integration testing] is 0% completed
-
 
 ' --- TickLens --- 
 [TickLens implementation] lasts 3 days
@@ -282,6 +250,37 @@ ganttDiagram {
 [Statistics Backend Testing] lasts 10 days
 [Statistics Backend Testing] starts at [Statistics Backend]'s end
 [Statistics Backend Testing] is 0% completed
+
+
+-- User contracts --
+
+
+' --- GenericSwap --- 
+[GenericSwap implementation] lasts 2 days
+[GenericSwap implementation] is 100% completed
+[GenericSwap implementation] starts at 2021-12-27
+
+[GenericSwap user documentation] lasts 1 days
+[GenericSwap user documentation] starts at [GenericSwap implementation]'s end
+[GenericSwap user documentation] starts at 2022-01-28
+[GenericSwap user documentation] is 50% completed
+
+[GenericSwap integration testing] lasts 1 days
+[GenericSwap integration testing] starts at [GenericSwap implementation]'s end
+[GenericSwap integration testing] starts at 2022-01-30
+[GenericSwap integration testing] is 0% completed
+
+
+' --- PairFlash --- 
+[PairFlash implementation] lasts 5 days
+[PairFlash implementation] is 100% completed
+[PairFlash implementation] starts at 2021-12-27
+
+[PairFlash user documentation] lasts 2 days
+[PairFlash user documentation] starts at [PairFlash implementation]'s end
+[PairFlash user documentation] starts at 2022-01-28
+[PairFlash user documentation] is 0% completed
+
 
 
 

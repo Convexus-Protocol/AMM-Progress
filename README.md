@@ -15,3 +15,51 @@
 
 ## Progress report 1
 
+We managed to implement the entire Core Layer, and most of the Periphery Layer already. The DAO still needs to be developed, all according to the schedule.
+
+### Core Layer
+
+-  Convexus Pool
+    - ✅ SCORE implementation
+    - ✅ unit testing
+
+- Convexus Factory
+    - ✅ SCORE implementation
+    - ✅ unit testing
+
+### Periphery Layers
+
+- SwapRouter
+    - ✅ SCORE implementation
+    - ✅ unit testing
+
+- NonFungiblePositionManager
+    - ✅ SCORE implementation
+    - ✅ unit testing
+
+- PoolInitializer
+    - ✅ SCORE implementation
+
+- Quoter
+    - ✅ SCORE implementation
+    - ✅ unit testing
+
+- CXS
+    - ✅ SCORE implementation
+
+- Staking
+    - ✅ SCORE implementation
+    - ✅ unit testing
+
+- TickLens
+    - ✅ SCORE implementation
+
+
+### Example contracts
+
+- PairFlash
+    - ✅ SCORE implementation
+
+- GenericSwap
+    - ✅ SCORE implementation
+
